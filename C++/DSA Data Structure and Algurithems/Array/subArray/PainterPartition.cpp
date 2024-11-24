@@ -14,7 +14,7 @@ bool IsPossible(vector<int> &arr, int n, int m, int  MaxAllowedTime){
             time += arr[i];
       } else{
             painters++;
-            time += arr[i];
+            time = arr[i];
       }
    }
    return painters <= m;
